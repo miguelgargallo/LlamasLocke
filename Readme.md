@@ -59,7 +59,7 @@ After clearing a region’s League, you may **transfer up to 6 surviving Wild 
    3. 2 Ultra Balls (×2). [^UB]  
    4. 1 Master Ball (100 %). [^MB]
 
-+++mermaid
+```mermaid
 flowchart TD
     A[Wild Encounter] --> B{OHKO Risk?}
     B -- Yes --> D[Ball Sequence]
@@ -69,7 +69,7 @@ flowchart TD
     E -- Fail --> F[3 Great Balls]
     F -- Fail --> G[2 Ultra Balls]
     G -- Fail --> H[Master Ball]
-+++
+```
 
 **Escape Clause** → Teleport, Roar, Whirlwind or roaming beasts → **Master Ball instantly**. [^Teleport] [^Roar] [^Whirlwind]
 
